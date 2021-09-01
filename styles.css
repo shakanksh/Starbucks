@@ -52,9 +52,14 @@ header ul li a
 {
    display: inline-block;
    color: #333;
-   font-weight: 400;
+   font-weight: 700;
    margin-left: 40px;
    text-decoration: none;
+}
+
+header ul li a:hover
+{
+   color: #017143;
 }
 
 .content
