@@ -9,6 +9,8 @@
 </head>
 <body>
    <section>
+      <!-- Quadrant -->
+      <div class="circle"></div>
       <!-- Nav Bar -->
       <header>
          <a href="#"><img src="Images/logo.png" alt="starbucks-logo" class="logo"></a>
@@ -19,6 +21,29 @@
             <li><a href="#">Contact</a></li>
          </ul>
       </header>
+      <!-- Landing Page -->
+      <div class="content">
+         <div class="textBox">
+            <h2>It's not just Coffee<br>It's <span>Starbucks</span></h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem accusamus ipsam hic, ea, non, fuga vero libero ab adipisci aperiam cum possimus corporis incidunt. Fugiat necessitatibus quidem earum expedita.</p>
+            <a href="#">Learn More</a>
+         </div>
+         <div class="imgBox">
+            <img src="Images/img1.png" alt="shake-img" class="starbucks">
+         </div>
+      </div>
+      <ul class="thumb">
+         <li><img src="Images/thumb1.png" onclick="imgSwitch('Images/img1.png');circleColorChange('#017143')"></li>
+         <li><img src="Images/thumb2.png" onclick="imgSwitch('Images/img2.png');circleColorChange('#eb7495')"></li>
+         <li><img src="Images/thumb3.png" onclick="imgSwitch('Images/img3.png');circleColorChange('#d752b1')"></li>
+      </ul>
+      <ul class="social">
+         <li><a href="#"><img src="Images/facebook.png" alt="facebook-logo"></a></li>
+         <li><a href="#"><img src="Images/twitter.png" alt="twitter-logo"></a></li>
+         <li><a href="#"><img src="Images/instagram.png" alt="instagram-logo"></a></li>
+      </ul>
    </section>
+
+   <script src="index.js"></script>
 </body>
 </html>
